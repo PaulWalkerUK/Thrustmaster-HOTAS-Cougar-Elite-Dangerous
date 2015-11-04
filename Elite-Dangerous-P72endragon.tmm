@@ -1,0 +1,165 @@
+Rem ##############################################
+Rem 
+Rem                 Elite-Dangerous-P72endragon.tmm
+Rem                                for 
+Rem                   Elite-Dangerous-P72endragon
+Rem 
+Rem               by Paul "P72endragon" Walker
+Rem 
+Rem       Last modified: 04 November 2015, 11:01 pm
+Rem 
+Rem            Controllers: Thrustmaster Cougar
+Rem 
+Rem ##############################################
+Rem 
+Rem    See: https://github.com/PaulWalkerUK/Thrustmaster-HOTAS-Cougar-Elite-Dangerous
+Rem
+Rem ##############################################
+
+
+
+
+Rem -----------------------------------
+Rem           Flight Rotation
+Rem -----------------------------------
+
+Rem Yaw Axis   = Joy RZ-Axis
+Rem Roll Axis  = Joy X-Axis
+Rem Pitch Axis = Joy Y-Axis
+Yaw_Left  = A
+Yaw_Right = D
+
+Rem ---------------------------------
+Rem           Flight Thrust
+Rem ---------------------------------
+Thrust_Left  = q  rem OK - needs to be held
+Thrust_Right = e  rem OK - needs to be held
+Thrust_Up    = r  rem OK - needs to be held
+Thrust_Down  = f  rem OK - needs to be held
+
+Rem -----------------------------------
+Rem           Flight Throttle
+Rem -----------------------------------
+
+Rem Throttle Axis = Joy Z-Axis
+Throttle_Increase = W
+Throttle_Decrease = S
+Set_Speed_0       = X
+Throttle_Reverse  = ALT r
+
+
+Rem --------------------------------------------
+Rem           Flight Landing Overrides
+Rem --------------------------------------------
+
+
+Rem ----------------------------------------
+Rem           Flight Miscellaneous
+Rem ----------------------------------------
+
+Toggle_Flight_Assist     = Z
+Engine_Boost             = TAB
+Enable_Frame_Shift_Drive = J
+
+Rem -----------------------------
+Rem           Targeting
+Rem -----------------------------
+
+Select_Target_Ahead    = T
+Next_Ship              = G
+Prev_Ship              = 
+Select_Highest_Threat  = H
+Next_Hostile_Ship      = 
+Prev_Hostile_Ship      = 
+Select_Wingman_1       = 7
+Select_Wingman_2       = 8
+Select_Wingman_3       = 9
+Select_Wingmans_Target = 0
+Wingman_Nav_Lock       = -
+Next_Subsystem         = Y
+Prev_Subsystem         =
+Next_System_In_Route   = O
+
+Rem ---------------------------
+Rem           Weapons
+Rem ---------------------------
+
+Primary_Fire      = MOUSE_LB
+Secondary_Fire    = MOUSE_RB
+Next_Fire_Group   = N
+Prev_Fire_Group   = 
+Deploy_Hardpoints = U
+
+Rem ---------------------------
+Rem           Cooling
+Rem ---------------------------
+
+Silent_Running   = DEL
+Deploy_Heat_Sink = V
+
+Rem ---------------------------------
+Rem           Miscellaneous
+Rem ---------------------------------
+
+Ship_Lights                = L
+Increase_Sensor_Zoom       = PGUP
+Decrease_Sensor_Zoom       = PGDN
+Divert_Power_To_Engines    = UARROW
+Divert_Power_To_Weapons    = RARROW
+Divert_Power_To_Systems    = LARROW
+Balance_Power_Distribution = DARROW
+Reset_Oculus_Orientation   = F12
+Cargo_Scoop                = HOME
+Jettison_Cargo             = END
+Landing_Gear               = INS
+Microphone_Mute            = 
+Use_Shield_Cell            = 
+Use_Chaff_Launcher         = 
+Debug_Camera_Toggle        = 
+
+Rem ---------------------------------
+Rem           Mode Switches
+Rem ---------------------------------
+UI_Focus            = LSHF
+Focus_Target_Panel  = 1
+Focus_Comms_Panel   = 2
+Quick_Comms_Panel   = ENT
+Focus_Sensor_Panel  = 3
+Focus_Systems_Panel = 4
+Headlook            = 
+Game_Menu           = P
+
+Rem ----------------------------------
+Rem           Interface Mode
+Rem ----------------------------------
+UI_Up          = POVU
+UI_Down        = POVD
+UI_Left        = POVL
+UI_Right       = POVR
+UI_Select      = SPC
+UI_Back        = BSP
+Next_Panel_Tab = e
+Prev_Panel_Tab = q
+
+Rem ---------------------------------
+Rem           Headlook Mode
+Rem ---------------------------------
+
+
+Rem ------------------------------
+Rem           Galaxy Map
+Rem ------------------------------
+Galaxy_Cam_Pitch_Up           = T
+Galaxy_Cam_Pitch_Down         = G
+Galaxy_Cam_Yaw_Left           = Q
+Galaxy_Cam_Yaw_Right          = E
+Galaxy_Cam_Translate_Forward  = W
+Galaxy_Cam_Translate_Backward = S
+Galaxy_Cam_Translate_Left     = A
+Galaxy_Cam_Translate_Right    = D
+Galaxy_Cam_Translate_Z_Axis   =
+Galaxy_Cam_Translate_Up       = R
+Galaxy_Cam_Translate_Down     = F
+Galaxy_Cam_Zoom_Axis          =
+Galaxy_Cam_Zoom_In            = Z
+Galaxy_Cam_Zoom_Out           = X

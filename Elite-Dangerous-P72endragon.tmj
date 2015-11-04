@@ -1,0 +1,97 @@
+Rem ##############################################
+Rem 
+Rem                 Elite-Dangerous-P72endragon.tmj
+Rem                                for 
+Rem                   Elite-Dangerous-P72endragon
+Rem 
+Rem               by Paul "P72endragon" Walker
+Rem 
+Rem       Last modified: 04 November 2015, 11:01 pm
+Rem 
+Rem            Controllers: Thrustmaster Cougar
+Rem 
+Rem ##############################################
+Rem    
+Rem    Uses the standard "Basic Joystick" controls with the following alterations:
+Rem    
+Rem    Flight Throttle --> Throttle Axis Range: Change to Forward Only
+Rem    Flight Throttle --> Forward Only Throttle Revers: Bind to [Left-alt]+R
+Rem    Yaw Axis: was JOY-RZ, change to JOY-RX (ANT)
+Rem ##############################################
+
+
+
+
+     USE MDEF Elite
+
+Rem ----------------------------
+Rem           Throttle
+Rem ----------------------------
+
+Rem Radio switch
+     BTN T2 /H Thrust_Up Rem OK
+     BTN T3 /H Thrust_Down Rem OK
+     BTN T4 /H Thrust_Right Rem OK
+     BTN T5 /H Thrust_Left Rem OK
+
+Rem Range
+     BTN T6 /I Enable_Frame_Shift_Drive 
+            /O Engine_Boost 
+
+Rem ----------------------------
+Rem           Joystick
+Rem ----------------------------
+
+Rem Triggers
+     BTN TG1 /U 
+             /M
+             /D
+     BTN TG2 /U /H Primary_Fire Rem OK
+             /M
+             /D
+     BTN S2 /U /I Deploy_Hardpoints Rem OK
+               /O Secondary_Fire 
+            /M
+            /D
+
+
+Rem NWS button
+     BTN S1 /U /I Select_Target_Ahead Rem OK
+               /O Select_Highest_Threat 
+            /M
+            /D Landing_Gear 
+
+Rem Pinky switch
+     BTN S4 /I Throttle_Reverse Rem OK
+            /O Toggle_Flight_Assist 
+
+Rem Hat 1
+     BTN H1U /U /I Next_Ship 
+                /O Next_Hostile_Ship 
+             /M
+             /D
+     BTN H1D /U /I Prev_Ship 
+                /O Prev_Hostile_Ship 
+             /M
+             /D
+     BTN H1L /U Prev_Subsystem 
+             /M
+             /D
+     BTN H1R /U Next_Subsystem 
+             /M
+             /D
+
+
+
+
+
+Rem Hat 4
+     BTN H4U /I Focus_Target_Panel
+             /O UI_Up 
+     BTN H4D /I Focus_Systems_Panel
+             /O UI_Down
+     BTN H4L /I Prev_Panel_Tab 
+             /O UI_Left
+     BTN H4R /I Next_Panel_Tab 
+             /O UI_Right 
+     BTN T1 UI_Select 
