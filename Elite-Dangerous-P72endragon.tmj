@@ -6,7 +6,7 @@ Rem                   Elite-Dangerous-P72endragon
 Rem 
 Rem               by Paul "P72endragon" Walker
 Rem 
-Rem       Last modified: 06 November 2015, 9:27 pm
+Rem       Last modified: 06 November 2015, 11:28 pm
 Rem 
 Rem            Controllers: Thrustmaster Cougar
 Rem 
@@ -29,14 +29,16 @@ Rem           Throttle
 Rem ----------------------------
 
 Rem Radio switch
-     BTN T2 /H Thrust_Up Rem OK
-     BTN T3 /H Thrust_Down Rem OK
+     BTN T2 /I /H Thrust_Backward
+            /O /H Thrust_Up Rem OK
+     BTN T3 /I /H Thrust_Forward 
+            /O /H Thrust_Down Rem OK
      BTN T4 /H Thrust_Right Rem OK
      BTN T5 /H Thrust_Left Rem OK
 
 Rem Range
-     BTN T6 /I Enable_Frame_Shift_Drive 
-            /O Engine_Boost 
+     BTN T6 /I Engine_Boost
+            /O Enable_Frame_Shift_Drive 
 
 Rem ----------------------------
 Rem           Joystick
@@ -86,16 +88,16 @@ Rem Hat 1
              /M
              /D
 
-
+Rem Hat 2
+     BTN H2U Cargo_Scoop 
 
 
 
 Rem Hat 4
-     BTN H4U /I Focus_Target_Panel
+     BTN H4U /I UI_Select
              /O UI_Up 
 
-     BTN H4D /I Focus_Systems_Panel
-             /O UI_Down
+     BTN H4D UI_Down
 
      BTN H4L /I Prev_Panel_Tab 
              /O UI_Left
@@ -103,4 +105,4 @@ Rem Hat 4
      BTN H4R /I Next_Panel_Tab 
              /O UI_Right 
 
-     BTN T1 UI_Select 
+     BTN T1 

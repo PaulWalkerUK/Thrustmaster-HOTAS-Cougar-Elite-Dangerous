@@ -6,7 +6,7 @@ Rem                   Elite-Dangerous-P72endragon
 Rem 
 Rem               by Paul "P72endragon" Walker
 Rem 
-Rem       Last modified: 04 November 2015, 11:01 pm
+Rem       Last modified: 06 November 2015, 11:28 pm
 Rem 
 Rem            Controllers: Thrustmaster Cougar
 Rem 
@@ -32,18 +32,20 @@ Yaw_Right = D
 Rem ---------------------------------
 Rem           Flight Thrust
 Rem ---------------------------------
-Thrust_Left  = q  rem OK - needs to be held
-Thrust_Right = e  rem OK - needs to be held
-Thrust_Up    = r  rem OK - needs to be held
-Thrust_Down  = f  rem OK - needs to be held
+Thrust_Left     = q
+Thrust_Right    = e
+Thrust_Up       = r
+Thrust_Down     = f
+Thrust_Forward  = w
+Thrust_Backward = s
 
 Rem -----------------------------------
 Rem           Flight Throttle
 Rem -----------------------------------
 
 Rem Throttle Axis = Joy Z-Axis
-Throttle_Increase = W
-Throttle_Decrease = S
+Throttle_Increase =
+Throttle_Decrease =
 Set_Speed_0       = X
 Throttle_Reverse  = ALT r
 
