@@ -6,7 +6,7 @@ Rem                   Elite-Dangerous-P72endragon
 Rem 
 Rem               by Paul "P72endragon" Walker
 Rem 
-Rem       Last modified: 06 November 2015, 12:13 am
+Rem       Last modified: 06 November 2015, 9:27 pm
 Rem 
 Rem            Controllers: Thrustmaster Cougar
 Rem 
@@ -22,7 +22,7 @@ Rem ##############################################
 
 
 
-     USE MDEF Elite
+     USE MDEF Elite-Dangerous-P72endragon
 
 Rem ----------------------------
 Rem           Throttle
