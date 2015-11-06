@@ -6,7 +6,7 @@ Rem                   Elite-Dangerous-P72endragon
 Rem 
 Rem               by Paul "P72endragon" Walker
 Rem 
-Rem       Last modified: 04 November 2015, 11:01 pm
+Rem       Last modified: 06 November 2015, 12:13 am
 Rem 
 Rem            Controllers: Thrustmaster Cougar
 Rem 
@@ -46,9 +46,11 @@ Rem Triggers
      BTN TG1 /U 
              /M
              /D
+
      BTN TG2 /U /H Primary_Fire Rem OK
              /M
              /D
+
      BTN S2 /U /I Deploy_Hardpoints Rem OK
                /O Secondary_Fire 
             /M
@@ -70,13 +72,16 @@ Rem Hat 1
                 /O Next_Hostile_Ship 
              /M
              /D
+
      BTN H1D /U /I Prev_Ship 
                 /O Prev_Hostile_Ship 
              /M
              /D
+
      BTN H1L /U Prev_Subsystem 
              /M
              /D
+
      BTN H1R /U Next_Subsystem 
              /M
              /D
@@ -88,10 +93,14 @@ Rem Hat 1
 Rem Hat 4
      BTN H4U /I Focus_Target_Panel
              /O UI_Up 
+
      BTN H4D /I Focus_Systems_Panel
              /O UI_Down
+
      BTN H4L /I Prev_Panel_Tab 
              /O UI_Left
+
      BTN H4R /I Next_Panel_Tab 
              /O UI_Right 
+
      BTN T1 UI_Select 
